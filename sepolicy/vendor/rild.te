@@ -1,4 +1,5 @@
 get_prop(rild, vendor_lge_misc_prop)
+set_prop(rild, exported_radio_prop)
 
 allow rild op_file:dir search;
 allow rild op_file:file r_file_perms;
